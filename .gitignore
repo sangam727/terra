@@ -1,3 +1,4 @@
 lost+found/
 terrform.tfvars
 .terraform*
+terraform.*

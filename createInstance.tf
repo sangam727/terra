@@ -1,5 +1,4 @@
-resource "aws" "MyfistInstance" {
-    ami = "ami-04cb4ca688797756f"
-    intance_type = "t2.micro"
-  
+resource "aws_instance" "mytest" {
+    ami = "ami-053b0d53c279acc90"
+    instance_type = "t2.micro"  
 }
